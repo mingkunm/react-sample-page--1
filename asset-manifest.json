@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-sample-page--1/static/css/main.1ef2e7e6.chunk.css",
+    "main.js": "/react-sample-page--1/static/js/main.ffae0353.chunk.js",
+    "main.js.map": "/react-sample-page--1/static/js/main.ffae0353.chunk.js.map",
+    "runtime-main.js": "/react-sample-page--1/static/js/runtime-main.23a67856.js",
+    "runtime-main.js.map": "/react-sample-page--1/static/js/runtime-main.23a67856.js.map",
+    "static/js/2.2a6bdae9.chunk.js": "/react-sample-page--1/static/js/2.2a6bdae9.chunk.js",
+    "static/js/2.2a6bdae9.chunk.js.map": "/react-sample-page--1/static/js/2.2a6bdae9.chunk.js.map",
+    "index.html": "/react-sample-page--1/index.html",
+    "static/css/main.1ef2e7e6.chunk.css.map": "/react-sample-page--1/static/css/main.1ef2e7e6.chunk.css.map",
+    "static/js/2.2a6bdae9.chunk.js.LICENSE.txt": "/react-sample-page--1/static/js/2.2a6bdae9.chunk.js.LICENSE.txt",
+    "static/media/slide_1.df407357.jpg": "/react-sample-page--1/static/media/slide_1.df407357.jpg",
+    "static/media/slide_2.b7b871cc.jpg": "/react-sample-page--1/static/media/slide_2.b7b871cc.jpg",
+    "static/media/slide_3.25c6c4ee.jpg": "/react-sample-page--1/static/media/slide_3.25c6c4ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23a67856.js",
+    "static/js/2.2a6bdae9.chunk.js",
+    "static/css/main.1ef2e7e6.chunk.css",
+    "static/js/main.ffae0353.chunk.js"
+  ]
+}
