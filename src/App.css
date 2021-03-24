@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 2vh 9vw 0 9vw;
+  object-fit: contain;
+}
+
+.nav {
+  position: absolute;
+  max-width: 1440px;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
   min-height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  will-change: opacity;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-item {
+  transition: 0.2s ease;
 }
 
-@keyframes App-logo-spin {
+.menu-item:hover {
+  color: #ffc004;
+  cursor: pointer;
+}
+
+.fade-up {
+  -webkit-animation: fadeUp 1s;
+  animation: fadeUp 1s;
+}
+
+.fade-right {
+  -webkit-animation: fadeRight 1s forwards;
+  animation: fadeRight 1s forwards;
+}
+
+.fade-left {
+  -webkit-animation: fadeLeft 1s;
+  animation: fadeLeft 1s;
+}
+
+.fade-in {
+  -webkit-animation: fadeIn 0.8s;
+  animation: fadeIn 0.8s;
+}
+
+@-webkit-keyframes fadeUp {
   from {
-    transform: rotate(0deg);
+    opacity: 0.2;
+    transform: translateY(50px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0.2;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeRight {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeRight {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadeLeft {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeLeft {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    background: rgb(40, 44, 52);
+  }
+  to {
+    opacity: 1;
+    background: rgba(40, 44, 52, 0.2);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    background: rgb(40, 44, 52);
+  }
+  to {
+    opacity: 1;
+    background: rgba(40, 44, 52, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (max-width: 468px) {
+  html {
+    font-size: 75%;
   }
 }
